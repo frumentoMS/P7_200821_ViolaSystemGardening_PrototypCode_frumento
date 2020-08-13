@@ -1,20 +1,55 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
+
+
+<div class="header" style="width:100%;height:17%;">
+  <img class="Logo" src="./Picz/ViolaLogo.png">
+  <div class="headerTitle">{{headerTitle}}</div>
+  <div class="headerLine" style="width:100%;height:10px;"></div>
+</div>  
+<div class="sidebarWrapper">
+<app-authorised-side-nav-toggler></app-authorised-side-nav-toggler>
+<app-authorised-side-nav></app-authorised-side-nav>
 </div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+
+
+<html>
+  <head>
+    <style>
+      </style>
+  </head>
+  <body class="body">
+
+  </body>
+  </html>
+
+
+
+<router-outlet></router-outlet>
+<div class="navbar">
+  <div class="iconTitle">
+<a (click)="navigate('Gärten')" class="active" style="opacity: 1;">Gärten
+  <img class="iconNav1" src="./Icons/icons8-autismus-50.png">
+</a>
+</div>
+<div class="iconTitle">
+  <a (click)="navigate2('Verwaltung')" class="active" style="opacity: 1;">Termine
+    <img class="iconNav2" src="./Icons/icons8-ereignis-angenommen-64.png">
+</a>
+</div>
+<div class="iconTitle">
+  <a (click)="navigate3('Beete')" class="active" style="opacity: 1;">News
+    <img class="iconNav3" src="./Icons/whatshot_grey-24px 2.svg">
+  </a>
+</div>
+<div class="iconTitle">
+  <a (click)="navigate3('Verwaltung')" class="active" style="opacity: 1;">Bestand
+    <img class="iconNav4" src="./Icons/list_alt-24px.svg">
+  </a>
+</div>
+<div class="iconTitle">
+  <a (click)="navigate4('Verwaltung')" class="active" style="opacity: 1;">Nachrichten
+    <img class="iconNav5" src="./Icons/mail.svg">
+  </a>
+</div>
+</div> 
+
 

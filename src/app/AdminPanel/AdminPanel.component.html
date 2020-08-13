@@ -1,0 +1,143 @@
+<html>
+
+<head>
+  <style>
+  </style>
+</head>
+
+<body class="body">
+
+  <div *ngIf="dataService.notificationCount > 0" class="dot">
+    <span class="dotNumber">{{dataService.notificationCount}}</span>
+  </div>
+
+  <div class="kartenbody">
+
+    <div *ngIf="dataService.aufgaben == '' " class="karte">
+      <img class="kartenhintergrund" src="./Picz/bio-172200_1920.jpg" alt="meinGarten">
+      <p class="kartentitel">Obstgarten</p>
+      <div class="kartenlinie"></div>
+      <p class="kartenSubTitel">Ansprechpartner:</p>
+      <img class="profilPic" src="./Picz/Nils.jpg" alt="meinGarten">
+      <div class="kartendaten">
+    
+      <div class="kartenreihe1">
+        <p class="kartenSubTitel">Name:</p>
+        <p class="kartenSubTitel">Beete:</p>
+        <p class="kartenSubTitel">Pflanzen:</p>
+      </div> 
+      <div class="kartenreihe2">
+        <p class="kartenSubTitelInput">Nils Becker</p>
+        <p class="kartenSubTitelInput">4</p>
+        <p class="kartenSubTitelInput">Erdbeeren, Himbeeren, B..</p>
+      </div> 
+          </div>
+          <div class="addTaskBox">
+            <p  (click)="sideNavService.showAddTask = true" class="addTask">+</p>
+            <p class="addTaskTitle">Add Task</p>
+          </div>
+            <a routerLink="/full-garten-info" routerLinkActive="active"><img class="icon" src="./Icons/keyboard_arrow_down_grey-24px.svg">
+            </a>
+    
+    </div>
+
+    <div *ngIf="dataService.aufgaben != '' " class="karte" style="height: 370px;">
+      <img class="kartenhintergrund" src="./Picz/bio-172200_1920.jpg" alt="meinGarten" style="height: 370px;">
+      <p class="kartentitel">Obstgarten</p>
+      <div class="kartenlinie"></div>
+      <p class="kartenSubTitel">Ansprechpartner:</p>
+      <img class="profilPic" src="./Picz/Nils.jpg" alt="meinGarten">
+      <div class="kartendaten">
+
+        <div class="kartenreihe1">
+          <p class="kartenSubTitel">Name:</p>
+          <p class="kartenSubTitel">Beete:</p>
+          <p class="kartenSubTitel">Pflanzen:</p>
+        </div>
+        <div class="kartenreihe2">
+          <p class="kartenSubTitelInput">Nils Becker</p>
+          <p class="kartenSubTitelInput">4</p>
+          <p class="kartenSubTitelInput">Erdbeeren, Himbeeren, B..</p>
+        </div>
+      </div>
+      <div class="aufgabePush" style="position: relative;height: auto; top:0px;width: 100%;">
+        <div style="display: flex; flex-direction: row; align-items: center; margin-left: 25px">
+          <img class="aufgabePushImage" src="./Picz/Mask Group.png" alt="meinGarten">
+          <p class="aufgabePushTitle">Unkraut jäten(Erdbeeren)</p>
+          <p class="aufgabePushDate">13.08.2020</p>
+
+        </div>
+      </div>
+      <div class="addTaskBox">
+        <p class="addTask">+</p>
+        <p class="addTaskTitle">Add Task</p>
+      </div>
+      <a routerLink="/full-garten-info" routerLinkActive="active"><img class="icon"
+          src="./Icons/keyboard_arrow_down_grey-24px.svg">
+      </a>
+
+    </div>
+
+
+    <div class="karte">
+      <img class="kartenhintergrund" src="./Picz/bio-172200_1920.jpg" alt="meinGarten">
+      <p class="kartentitel">Salatgarten</p>
+      <div class="kartenlinie"></div>
+      <p class="kartenSubTitel">Ansprechpartner:</p>
+      <img class="profilPic" src="./Picz/pau.jpg" alt="meinGarten">
+      <div class="kartendaten">
+
+        <div class="kartenreihe1">
+          <p class="kartenSubTitel">Name:</p>
+          <p class="kartenSubTitel">Beete:</p>
+          <p class="kartenSubTitel">Pflanzen:</p>
+        </div>
+        <div class="kartenreihe2">
+          <p class="kartenSubTitelInput">Paul Tremmel</p>
+          <p class="kartenSubTitelInput">2</p>
+          <p class="kartenSubTitelInput">Eisberg, Rucola, Rom...</p>
+        </div>
+      </div>
+      <div class="addTaskBox">
+        <p class="addTask">+</p>
+        <p class="addTaskTitle">Add Task</p>
+      </div>
+      <a routerLink="/full-garten-info" routerLinkActive="active"><img class="icon"
+          src="./Icons/keyboard_arrow_down_grey-24px.svg">
+      </a>
+    </div>
+
+    <div class="karte">
+      <img class="kartenhintergrund" src="./Picz/bio-172200_1920.jpg" alt="meinGarten">
+      <p class="kartentitel">Kartoffelgarten</p>
+      <div class="kartenlinie"></div>
+      <p class="kartenSubTitel">Ansprechpartner:</p>
+      <img class="profilPic" src="./Picz/freckled-face-3763188.jpg" alt="meinGarten">
+      <div class="kartendaten">
+
+        <div class="kartenreihe1">
+          <p class="kartenSubTitel">Name:</p>
+          <p class="kartenSubTitel">Beete:</p>
+          <p class="kartenSubTitel">Pflanzen:</p>
+        </div>
+        <div class="kartenreihe2">
+          <p class="kartenSubTitelInput">Juli Schneider</p>
+          <p class="kartenSubTitelInput">4</p>
+          <p class="kartenSubTitelInput">Basilikum, Koriander, Peters...</p>
+        </div>
+      </div>
+      <div class="addTaskBox">
+        <p class="addTask">+</p>
+        <p class="addTaskTitle">Add Task</p>
+      </div>
+      <a routerLink="/full-garten-info" routerLinkActive="active"><img class="icon"
+          src="./Icons/keyboard_arrow_down_grey-24px.svg">
+      </a>
+    </div>
+
+  </div>
+</body>
+
+</html>
+
+<router-outlet></router-outlet>

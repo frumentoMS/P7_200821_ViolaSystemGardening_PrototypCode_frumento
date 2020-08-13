@@ -1,0 +1,744 @@
+
+
+
+.routerTest {
+    margin-top: 300px;
+    background-color: black;
+    width: 100px;
+    height: 100px;
+}
+
+.header {
+        background-color: #146E74;
+        top: 0;
+        left: 0;
+        position: fixed;
+        opacity: 0.85;
+        z-index: 3;
+        }
+
+    .headerLine {
+        background-color: white;
+        top: 17%;
+        left: 0;
+        position: fixed;
+        box-shadow: 0px 10px 30px 1px black;     
+    } 
+
+
+    .body {
+        background-color: #AFAFAF;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+    }
+
+    .kartenbody {
+        margin-top: 25%;
+        margin-bottom: 100px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .karte {
+        width: 95%;
+        height: 300px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        margin-top: 5%;
+        border-radius: 10px;
+        align-items: center;
+        box-shadow: 0px 10px 30px 1px #212121;
+        border: 5px black;
+        z-index: 2;
+    }
+
+    .kartenlinie {
+        width: 100%;
+        background-color: #00a9b5;
+        height: 1px;
+        z-index: 1;
+    }
+
+    .kartenhintergrund {
+        border-radius: 10px;
+        opacity: 0.1;
+        width: 95%;
+        height: 300px;
+        position: absolute;
+        z-index: -1;
+    }
+
+    .kartentitel {
+        font-size: 25px;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        font-family: Open_Sans, sans-serif;
+        color: #00a9b5;
+    }
+
+    .kartendaten {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 80%;
+        margin-top: 1%;
+    }
+
+    .kartenreiheTitel {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin-left: 10%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .kartenreihe1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-left: 10%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    
+    .kartenreihe2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 80%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 5%;
+    }
+
+    .kartenreihe2Box {
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .kartenDatenUndProfilPic {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .profilPic {
+        height: 80px;
+        width: 100px;
+        z-index: 1;
+        position: absolute;
+        margin-top: 60px;
+        margin-left: 30%;
+        border-radius: 50%;
+        border: 1px solid #00a9b5;
+    }
+
+    .kartenSubTitel {
+        font-size: 20px;
+        color: black;
+        font-family: Open_Sans, sans-serif;
+        margin: 0;
+        width: 30%;
+        margin-top: 3%;
+        margin-right: 50%;
+    }
+    
+    .icon {
+        display: block;
+        fill: green; 
+        width: 20px;
+        height: 100px;
+        position: relative;
+        top: -179px;
+    }
+
+    .addTaskBox {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .addTaskTitle {
+      position: relative;
+      top: -156px;
+      left: 182px;
+      font-size: 15px;
+      color: grey;
+      font-family: Open_Sans, sans-serif;
+    }
+
+    .LogoIcon {
+        margin-left: 5%;
+        margin-top: 55px;
+        height: 45px;
+        position: fixed;
+      
+    }
+
+    .Logo {
+        margin-left: 20%;
+        margin-top: 30px;
+        height: 80px;
+        position: fixed;
+    }
+
+    .kartenSubTitelInput {
+        font-size: 25px;
+        color: #00a9b5;
+        font-family: Open_Sans, sans-serif;
+        margin: 0;
+        width: 100%;
+    }
+
+    .openCard {
+        font-size: 15px;
+        color: gray;
+        font-family: Open_Sans, sans-serif;
+        margin: 0;
+        padding-bottom: 3%;
+        font-weight: bold;
+    }
+
+    .iconHouse {
+        position: inherit;       
+        bottom: 15px;
+    }
+
+    .notificationBoxes {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 200px;
+    }
+
+    .notificationBox1 {
+        height: 50%;
+        border-bottom: 1px solid #035428;
+        background-color: #c3f7fa;
+    }
+
+    .notification {
+        height: 100px;
+        width: 100%;
+        background-color: #00f3ff;
+        opacity: 0.08;
+        transform-origin: right;
+        -webkit-animation: notify 5s ease-in-out infinite;
+        animation: notify 5s ease-in-out infinite;
+        position: absolute;
+      }
+      
+      @-webkit-keyframes notify {
+        0% {transform: scaleX(0);}
+        10% {transform: scaleX(1);}
+        13% {transform: scale(1.1);}
+        16% {transform: scale(1);}
+        100% {transform: scaleX(0);}
+      }
+      
+      @keyframes notify {
+        0% {transform: scaleX(0);}
+        10% {transform: scaleX(1);}
+        13% {transform: scale(1.1);}
+        16% {transform: scale(1);}
+        100% {transform: scaleX(0);}
+      }
+      
+      .identifier {
+        position: absolute;
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        background-color: #94DACD;
+        margin-top: 5.5px;
+        margin-left: 7.5px;
+        -webkit-animation: exit 3s ease-in-out infinite;
+        animation: exit 3s ease-in-out infinite;
+      }
+      
+      .text {
+        position: absolute;
+        height: 6px;
+        width: 70px;
+        background-color: #94DACD;
+        margin-top: 12.25px;
+        margin-left: 40px;
+        -webkit-animation: exit 3s ease-in-out infinite;
+        animation: exit 3s ease-in-out infinite;
+      }
+      
+      @-webkit-keyframes exit {
+        0% {opacity: 1;}
+        55% {opacity: 1;}
+        65% {opacity: 0;}  
+        100% {opacity: 0;}
+      }
+      
+      @keyframes exit {
+        0% {opacity: 1;}
+        55% {opacity: 1;}
+        65% {opacity: 0;}  
+        100% {opacity: 0;}
+      }
+      
+      .number {
+        position: absolute;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        color: #94DACD;
+        margin-top: -40px;
+        margin-left: 557px;
+        -webkit-animation: enter 3s ease-in-out infinite;
+        animation: enter 3s ease-in-out infinite;
+      }
+      
+      @-webkit-keyframes enter {
+        0% {opacity: 0;}
+        55% {opacity: 0;}
+        65% {opacity: 1; transform: scaleX(1);}
+        95% {opacity: 1; transform: scaleX(1);}
+        100% {opacity: 0; transform: scaleX(1);}
+      }
+      
+      @keyframes enter {
+        0% {opacity: 0;}
+        55% {opacity: 0;}
+        65% {opacity: 1; transform: scaleX(1);}
+        95% {opacity: 1; transform: scaleX(1);}
+        100% {opacity: 0; transform: scaleX(1);}
+      }
+      
+      #credit {
+        position: absolute;
+        font-family: sans-serif;
+        font-size: 12px;
+        color: #ffffff;
+        margin-top: 70px;
+        left: 20px;
+      }
+      
+      a,
+      a:visited {
+        text-decoration: none;
+        color: #ffffff;
+      }
+      
+      a:focus,
+      a:hover {
+        color: #45B39F;
+      }
+
+      .notificationBox {
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+      }
+
+      .notiTextBox {
+          display: flex;
+          flex-direction: row;
+          position: relative;
+        }
+
+      .notiAufgabe {
+        font-size: 30px;
+        color: black;
+        margin-top: 33px;
+        margin-left: 20px;
+        font-family: Open_Sans, sans-serif;
+      }
+
+      .notiDatum {
+        font-size: 25px;
+        color: #383838;
+        margin-top: 37px;
+        margin-left: 25px;
+        font-family: Open_Sans, sans-serif;
+    }
+
+    .notiPicProp {
+        height: 70px;
+        margin-left: 30px;
+        margin-top: 15px;
+    }
+
+    .notiPicText {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .titelNoti {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    .dot {
+      height: 25px;
+      width: 25px;
+      background-color: #22C96F;
+      color: white;
+      border-radius: 50%;
+      margin-left: 180px;
+      position: absolute;
+      font-family: Open_Sans, sans-serif;
+      font-size: 20px;
+      top: 38px;
+      left: -77px;
+      z-index: 4;
+  }
+
+    .dotNumber {
+        margin-left: 7px;
+    }
+
+    .navbar {
+        overflow: hidden;
+        background-color:rgba(255, 255, 255, 0.85);
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        z-index: 2;
+        display: flex;
+        justify-content: space-around;
+        height: 80px;
+        border-top: 2px solid #bdbdbd;
+        padding-bottom: 10px;
+      }
+      
+      .navbar a {
+        float: left;
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+      
+      .navbar a:hover {
+        background: #f1f1f1;
+      }
+      
+      .main {
+        padding: 16px;
+        margin-bottom: 30px;
+      }
+
+      .iconTitle {
+          display: flex;
+          flex-direction: column;
+          font-family: Open_Sans, sans-serif;
+      }
+
+      .iconNav1 {
+        width: 40px;
+        position: absolute;
+        margin-top: 33px;
+        margin-left: 54px;
+      }
+
+      .iconNav2 {
+        width: 40px;
+        position: absolute;
+        margin-top: 33px;
+        margin-left: 23px;
+      }
+
+      .iconNav3 {
+        width: 40px;
+        position: absolute;
+        margin-top: 35px;
+        margin-left: 20px;
+      }
+
+      .iconNav4 {
+        width: 40px;
+        position: absolute;
+        margin-top: 33px;
+        margin-left: 29px;
+      }
+    
+      .iconNav5 {
+        width: 40px;
+        position: absolute;
+        margin-top: 33px;
+        margin-left: 42px;
+      }
+      
+      @font-face {
+        font-family: "Cinzel_Decorative";
+        src: url("/CinzelDecorative-Regular.ttf") format("woff2"),
+      }
+
+      .addGarden {
+        font-size: 56px;
+        font-weight: 300;
+        color: white;
+        position: fixed;
+        float: right;
+        top: -6px;
+        right: 41px;
+        z-index: 3;
+      }
+
+      .addTask {
+        left: 200px;
+        font-size: 50px;
+        position: relative;
+        top: -17px;
+        color: #22C96F;
+        font-weight: 500;
+      }
+
+      
+
+    .addTask {
+      left: 200px;
+      font-size: 50px;
+      position: relative;
+      top: -17px;
+      color: #22C96F;
+      font-weight: lighter;
+    }
+
+    .popUpTask {
+      width: 400px;
+      height: 255px;
+      background-color: #146E74;
+      opacity: 0.97;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      z-index: 2;
+      align-items: center;
+      border: 0.5px solid #146E74;
+      position: fixed;
+      z-index: 3;
+      top: 250px;
+    }
+
+    .popUpTaskLine {
+      height: 0.5px;
+      color: teal;
+      width: 100%;
+    }
+
+    .popUpTaskTitle {
+      font-family: Open_Sans, sans-serif;
+      font-size: 20px;
+      color: white;
+    }
+
+
+body{
+
+	background-position: center;
+    background-origin: content-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+	min-height:100vh;
+	font-family: 'Noto Sans', sans-serif;
+}
+.text-center{
+	color:#fff;	
+	text-transform:uppercase;
+    font-size: 23px;
+    margin: -50px 0 80px 0;
+    display: block;
+    text-align: center;
+}
+.box{
+	position:relative;
+	left:50%;
+	top:99px;
+	transform: translate(-50%,-50%);
+	border-radius:3px;
+	padding:70px 100px;
+}
+.input-container{
+	position:relative;
+	margin-bottom:25px;
+}
+.input-container label{
+	position:absolute;
+	top:0px;
+	left:0px;
+	font-size:16px;
+	color:white;	
+    pointer-event:none;
+	transition: all 0.5s ease-in-out;
+}
+.input-container input{ 
+  border:0;
+  border-bottom:1px solid white;  
+  background:transparent;
+  width:100%;
+  padding:8px 0 5px 0;
+  font-size:16px;
+  color:white;
+}
+.input-container input:focus{ 
+ border:none;	
+ outline:none;
+ border-bottom:1px solid #22C96F;	
+}
+.btn{
+	color:#fff;
+	background-color:#22C96F;
+	outline: none;
+  border: 0;
+  color: #fff;
+	padding:10px 20px;
+	text-transform:uppercase;
+	border-radius:2px;
+	cursor:pointer;
+  position:relative;
+  height: 34px;
+}
+/*.btn:after{
+	content:"";
+	position:absolute;
+	background:rgba(0,0,0,0.50);
+	top:0;
+	right:0;
+	width:100%;
+	height:100%;
+}*/
+.input-container input:focus ~ label,
+.input-container input:valid ~ label{
+	top:-12px;
+	font-size:12px;
+	
+}
+
+
+/*.popUpTask2*/
+
+.addTask2 {
+  left: 200px;
+  font-size: 50px;
+  position: relative;
+  top: -17px;
+  color: #22C96F;
+  font-weight: 500;
+}
+
+.popUpTask2 {
+  width: 400px;
+  height: 255px;
+  background-color: white;
+  opacity: 0.97;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  z-index: 2;
+  align-items: center;
+  border: 0.5px solid #146E74;
+  z-index: 4;
+  top: 250px;
+  position: absolute;
+}
+
+.popUpTaskLine2 {
+  height: 0.5px;
+  color: teal;
+  width: 100%;
+}
+
+.popUpTaskTitle2 {
+  font-family: Open_Sans, sans-serif;
+  font-size: 20px;
+  color: #146E74;
+}
+
+
+body{
+
+background-position: center;
+background-origin: content-box;
+background-repeat: no-repeat;
+background-size: cover;
+min-height:100vh;
+font-family: 'Noto Sans', sans-serif;
+}
+.text-center2{
+color:#146E74;	
+text-transform:uppercase;
+font-size: 23px;
+margin: -50px 0 80px 0;
+display: block;
+text-align: center;
+}
+.box2{
+position:relative;
+left:50%;
+top:99px;
+transform: translate(-50%,-50%);
+border-radius:3px;
+padding:70px 100px;
+}
+.input-container2{
+position:relative;
+margin-bottom:25px;
+}
+.input-container2 label{
+position:absolute;
+top:0px;
+left:0px;
+font-size:16px;
+color:#146E74;	
+pointer-event:none;
+transition: all 0.5s ease-in-out;
+}
+.input-container2 input{ 
+border:0;
+border-bottom:1px solid #146E74;  
+background:transparent;
+width:100%;
+padding:8px 0 5px 0;
+font-size:16px;
+color:black;
+}
+.input-container input:focus{ 
+border:none;	
+outline:none;
+border-bottom:1px solid #22C96F;	
+}
+.btn2{
+color:#fff;
+background-color:#22C96F;
+outline: none;
+border: 0;
+color: #fff;
+padding:10px 20px;
+text-transform:uppercase;
+border-radius:2px;
+cursor:pointer;
+position:relative;
+height: 34px;
+}
+/*.btn:after{
+content:"";
+position:absolute;
+background:rgba(0,0,0,0.50);
+top:0;
+right:0;
+width:100%;
+height:100%;
+}*/
+.input-container input:focus ~ label,
+.input-container input:valid ~ label{
+top:-12px;
+font-size:12px;
+
+}

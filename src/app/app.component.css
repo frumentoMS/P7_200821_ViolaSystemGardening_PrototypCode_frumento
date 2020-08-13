@@ -1,0 +1,1151 @@
+.burgerButtonIcon {
+    width: 90px;
+    height: 66px;
+    position: fixed;
+    top: 50px;
+}
+
+.moreInfoButton {
+    margin-top: 15px;
+}
+
+.sidebarWrapper{  
+  z-index: 4;
+  position: fixed;
+}
+
+.hinzufuegen {
+    margin-left: 50px;
+    font-size: 25px;
+    color: #22C96F;
+    font-weight: bold;
+}
+
+.kartenlinie2 {
+    width: 100%;
+    background-color: #AFAFAF;
+    height: 1px;
+    z-index: 1;
+}
+
+.kartendatenBox {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.Ansprechpartner {
+    font-size: 20px;
+    color: black;
+    font-family: Open_Sans, sans-serif;
+    margin: 0;
+    width: 180px;
+    margin-left: 50px;
+}
+
+.AnsprechpartnerName {
+    font-size: 20px;
+    color: #00a9b5;
+    font-family: Open_Sans, sans-serif;
+    margin: 0;
+    width: 33%;
+}
+
+.firstRow {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.routerTest {
+    margin-top: 300px;
+    background-color: black;
+    width: 100px;
+    height: 100px;
+}
+
+.header {
+        background-color: #146E74;
+        top: 0;
+        left: 0;
+        position: fixed;
+        opacity: 0.95 !important;
+        z-index: 3;
+        }
+
+    .headerLine {
+        background-color: white;
+        top: 17%;
+        left: 0;
+        position: fixed;
+        box-shadow: 0px 10px 30px 1px black;     
+    } 
+
+
+    .body {
+        background-color: #AFAFAF;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+    }
+
+    .kartenbody {
+        margin-top: 25%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .karte {
+        width: 95%;
+        height: 255px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        margin-top: 5%;
+        border-radius: 10px;
+        align-items: center;
+        box-shadow: 0px 10px 30px 1px #212121;
+        border: 5px black;
+        z-index: 2;
+    }
+
+    .kartenlinie {
+        width: 100%;
+        background-color: #00a9b5;
+        height: 1px;
+        z-index: 1;
+    }
+
+    .kartenhintergrund {
+        border-radius: 10px;
+        opacity: 0.1;
+        width: 95%;
+        height: 255px;
+        position: absolute;
+    }
+
+    .kartentitel {
+        font-size: 25px;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        font-family: Open_Sans, sans-serif;
+        color: #00a9b5;
+    }
+
+    .kartendaten {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 80%;
+        margin-top: 1%;
+    }
+
+    .kartenreiheTitel {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin-left: 10%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .kartenreihe1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-left: 10%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    
+    .kartenreihe2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 80%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 5%;
+    }
+
+    .kartenreihe2Box {
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .kartenDatenUndProfilPic {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .profilPic {
+        height: 11%;
+        width: 20%;
+        z-index: 1;
+        position: absolute;
+        margin-top: 60px;
+        margin-left: 30%;
+        border-radius: 50%;
+        border: 1px solid #00a9b5;
+    }
+
+    .kartenSubTitel {
+        font-size: 20px;
+        color: black;
+        font-family: Open_Sans, sans-serif;
+        margin: 0;
+        width: 30%;
+        margin-top: 3%;
+        margin-right: 50%;
+    }
+    
+    .icon {
+        display: block;
+        fill: green; 
+        width: 20px;
+    }
+
+    .LogoIcon {
+        margin-left: 5%;
+        margin-top: 55px;
+        height: 45px;
+        position: fixed;
+      
+    }
+
+    .Logo {
+        height: 100px;
+        opacity: 0.5;
+        position: fixed;
+        top: 25px;
+        left: 150px;
+        z-index: -1;
+        width: 140px;
+    }
+
+    .kartenSubTitelInput {
+        font-size: 25px;
+        color: #00a9b5;
+        font-family: Open_Sans, sans-serif;
+        margin: 0;
+        width: 100%;
+    }
+
+    .openCard {
+        font-size: 15px;
+        color: gray;
+        font-family: Open_Sans, sans-serif;
+        margin: 0;
+        padding-bottom: 3%;
+        font-weight: bold;
+    }
+
+    .iconHouse {
+        position: inherit;       
+        bottom: 15px;
+    }
+
+    .notificationBoxes {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 200px;
+    }
+
+    .notificationBox1 {
+        height: 50%;
+        border-bottom: 1px solid #035428;
+        background-color: #c3f7fa;
+    }
+
+    .notification {
+        height: 100px;
+        width: 100%;
+        background-color: #00f3ff;
+        opacity: 0.08;
+        transform-origin: right;
+        -webkit-animation: notify 5s ease-in-out infinite;
+        animation: notify 5s ease-in-out infinite;
+        position: absolute;
+      }
+      
+      @-webkit-keyframes notify {
+        0% {transform: scaleX(0);}
+        10% {transform: scaleX(1);}
+        13% {transform: scale(1.1);}
+        16% {transform: scale(1);}
+        100% {transform: scaleX(0);}
+      }
+      
+      @keyframes notify {
+        0% {transform: scaleX(0);}
+        10% {transform: scaleX(1);}
+        13% {transform: scale(1.1);}
+        16% {transform: scale(1);}
+        100% {transform: scaleX(0);}
+      }
+      
+      .identifier {
+        position: absolute;
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        background-color: #94DACD;
+        margin-top: 5.5px;
+        margin-left: 7.5px;
+        -webkit-animation: exit 3s ease-in-out infinite;
+        animation: exit 3s ease-in-out infinite;
+      }
+      
+      .text {
+        position: absolute;
+        height: 6px;
+        width: 70px;
+        background-color: #94DACD;
+        margin-top: 12.25px;
+        margin-left: 40px;
+        -webkit-animation: exit 3s ease-in-out infinite;
+        animation: exit 3s ease-in-out infinite;
+      }
+      
+      @-webkit-keyframes exit {
+        0% {opacity: 1;}
+        55% {opacity: 1;}
+        65% {opacity: 0;}  
+        100% {opacity: 0;}
+      }
+      
+      @keyframes exit {
+        0% {opacity: 1;}
+        55% {opacity: 1;}
+        65% {opacity: 0;}  
+        100% {opacity: 0;}
+      }
+      
+      .number {
+        position: absolute;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        color: #94DACD;
+        margin-top: -40px;
+        margin-left: 557px;
+        -webkit-animation: enter 3s ease-in-out infinite;
+        animation: enter 3s ease-in-out infinite;
+      }
+      
+      @-webkit-keyframes enter {
+        0% {opacity: 0;}
+        55% {opacity: 0;}
+        65% {opacity: 1; transform: scaleX(1);}
+        95% {opacity: 1; transform: scaleX(1);}
+        100% {opacity: 0; transform: scaleX(1);}
+      }
+      
+      @keyframes enter {
+        0% {opacity: 0;}
+        55% {opacity: 0;}
+        65% {opacity: 1; transform: scaleX(1);}
+        95% {opacity: 1; transform: scaleX(1);}
+        100% {opacity: 0; transform: scaleX(1);}
+      }
+      
+      #credit {
+        position: absolute;
+        font-family: sans-serif;
+        font-size: 12px;
+        color: #ffffff;
+        margin-top: 70px;
+        left: 20px;
+      }
+      
+      a,
+      a:visited {
+        text-decoration: none;
+        color: #ffffff;
+      }
+      
+      a:focus,
+      a:hover {
+        color: #45B39F;
+      }
+
+      .notificationBox {
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+      }
+
+      .notiTextBox {
+          display: flex;
+          flex-direction: row;
+          position: relative;
+        }
+
+      .notiAufgabe {
+        font-size: 30px;
+        color: black;
+        margin-top: 33px;
+        margin-left: 20px;
+        font-family: Open_Sans, sans-serif;
+      }
+
+      .notiDatum {
+        font-size: 25px;
+        color: #383838;
+        margin-top: 37px;
+        margin-left: 25px;
+        font-family: Open_Sans, sans-serif;
+    }
+
+    .notiPicProp {
+        height: 70px;
+        margin-left: 30px;
+        margin-top: 15px;
+    }
+
+    .notiPicText {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .titelNoti {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    .dot {
+        height: 25px;
+        width: 25px;
+        background-color: #22C96F;
+        color: white;
+        border-radius: 50%;
+        display: inline-block;
+        margin-left: 180px;
+        position: absolute;
+        margin-top: 4px;
+        font-family: Open_Sans, sans-serif;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+    }
+
+    .dotNumber {
+        margin-left: 7px;
+    }
+
+    .navbar {
+        overflow: hidden;
+        background-color:rgba(255, 255, 255, 0.85);
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        z-index: 2;
+        display: flex;
+        justify-content: space-around;
+        height: 80px;
+        border-top: 2px solid #bdbdbd;
+        padding-bottom: 10px;
+        border: 1px solid #9c9c9c !important;
+      }
+      
+      .navbar a {
+        float: left;
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+      
+      .navbar a:hover {
+        background: #f1f1f1;
+      }
+      
+      .main {
+        padding: 16px;
+        margin-bottom: 30px;
+      }
+
+      .iconTitle {
+          display: flex;
+          flex-direction: column;
+          font-family: Open_Sans, sans-serif;
+      }
+
+      .iconNav1 {
+        width: 40px;
+      }
+
+      .iconNav2 {
+        width: 40px;
+      }
+
+      .iconNav3 {
+        width: 40px;
+      }
+
+      .iconNav4 {
+        width: 40px;
+      }
+    
+      .iconNav5 {
+        width: 40px;
+
+     }
+
+     .headerTitle{
+        font-family: 'my_custom_font', 'CinzelDecorative-Regular.ttf', sans-serif;
+        font-size: 40px;
+        color: white;
+        position: fixed;
+        width: 360px;
+        top: 26px;
+        left: 150px;
+    }
+    
+    .logoTitle {
+      font-family: 'my_custom_font', 'CinzelDecorative-Regular.ttf', sans-serif;
+      font-size: 48px;
+      color: white;
+      margin-left: 4%;
+      margin-top: 43px;
+    }
+
+
+
+    a, a:hover, a:focus {
+      color: inherit;
+      text-decoration: none;
+      transition: all 0.3s;
+  }
+  
+  .navbar {
+      padding: 15px 10px;
+      background: #fff;
+      opacity: 0.85;
+      border: none;
+      border-radius: 0;
+      box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-btn {
+      box-shadow: none;
+      outline: none !important;
+      border: none;
+  }
+  
+  .line {
+      width: 100%;
+      height: 1px;
+      border-bottom: 1px dashed #ddd;
+      margin: 40px 0;
+  }
+  
+  /* ---------------------------------------------------
+      SIDEBAR STYLE
+  ----------------------------------------------------- */
+  
+  .wrapper {
+      display: flex;
+      width: 100%;
+      align-items: stretch;
+      perspective: 1500px;
+  }
+  
+  
+  #sidebar {
+      min-width: 250px;
+      max-width: 250px;
+      background: #7386D5;
+      color: black;
+      transition: all 0.6s cubic-bezier(0.945, 0.020, 0.270, 0.665);
+      transform-origin: bottom left;
+  }
+  
+  #sidebar.active {
+      margin-left: -250px;
+      transform: rotateY(100deg);
+  }
+  
+  #sidebar .sidebar-header {
+      padding: 20px;
+      background: #6d7fcc;
+  }
+  
+  #sidebar ul.components {
+      padding: 20px 0;
+      border-bottom: 1px solid #47748b;
+  }
+  
+  #sidebar ul p {
+      color: #fff;
+      padding: 10px;
+  }
+  
+  #sidebar ul li a {
+      padding: 10px;
+      font-size: 1.1em;
+      display: block;
+  }
+  #sidebar ul li a:hover {
+      color: #7386D5;
+      background: #fff;
+  }
+  
+  #sidebar ul li.active > a, a[aria-expanded="true"] {
+      color: #fff;
+      background: #6d7fcc;
+  }
+  
+  
+  a[data-toggle="collapse"] {
+      position: relative;
+  }
+  
+  .dropdown-toggle::after {
+      display: block;
+      position: absolute;
+      top: 50%;
+      right: 20px;
+      transform: translateY(-50%);
+  }
+  
+  ul ul a {
+      font-size: 0.9em !important;
+      padding-left: 30px !important;
+      background: #6d7fcc;
+  }
+  
+  ul.CTAs {
+      padding: 20px;
+  }
+  
+  ul.CTAs a {
+      text-align: center;
+      font-size: 0.9em !important;
+      display: block;
+      border-radius: 5px;
+      margin-bottom: 5px;
+  }
+  
+  a.download {
+      background: #fff;
+      color: #7386D5;
+  }
+  
+  a.article, a.article:hover {
+      background: #6d7fcc !important;
+      color: #fff !important;
+  }
+  
+  
+  
+  /* ---------------------------------------------------
+      CONTENT STYLE
+  ----------------------------------------------------- */
+  #content {
+      width: 100%;
+      padding: 20px;
+      min-height: 100vh;
+      transition: all 0.3s;
+  }
+  
+  #sidebarCollapse {
+      width: 40px;
+      height: 40px;
+      background: #f5f5f5;
+      cursor: pointer;
+  }
+  
+  #sidebarCollapse span {
+      width: 80%;
+      height: 2px;
+      margin: 0 auto;
+      display: block;
+      background: #555;
+      transition: all 0.8s cubic-bezier(0.810, -0.330, 0.345, 1.375);
+      transition-delay: 0.2s;
+  }
+  
+  #sidebarCollapse span:first-of-type {
+      transform: rotate(45deg) translate(2px, 2px);
+  }
+  #sidebarCollapse span:nth-of-type(2) {
+      opacity: 0;
+  }
+  #sidebarCollapse span:last-of-type {
+      transform: rotate(-45deg) translate(1px, -1px);
+  }
+  
+  
+  #sidebarCollapse.active span {
+      transform: none;
+      opacity: 1;
+      margin: 5px auto;
+  }
+  
+  
+  /* ---------------------------------------------------
+      MEDIAQUERIES
+  ----------------------------------------------------- */
+  @media (max-width: 768px) {
+      #sidebar {
+          margin-left: -250px;
+          transform: rotateY(90deg);
+      }
+      #sidebar.active {
+          margin-left: 0;
+          transform: none;
+      }
+      #sidebarCollapse span:first-of-type,
+      #sidebarCollapse span:nth-of-type(2),
+      #sidebarCollapse span:last-of-type {
+          transform: none;
+          opacity: 1;
+          margin: 5px auto;
+      }
+      #sidebarCollapse.active span {
+          margin: 0 auto;
+      }
+      #sidebarCollapse.active span:first-of-type {
+          transform: rotate(45deg) translate(2px, 2px);
+      }
+      #sidebarCollapse.active span:nth-of-type(2) {
+          opacity: 0;
+      }
+      #sidebarCollapse.active span:last-of-type {
+          transform: rotate(-45deg) translate(1px, -1px);
+      }
+  
+  }
+
+  
+
+
+.routerTest {
+    margin-top: 300px;
+    background-color: black;
+    width: 100px;
+    height: 100px;
+}
+
+.header {
+        background-color: #146E74;
+        top: 0;
+        left: 0;
+        position: fixed;
+        opacity: 0.85;
+        z-index: 3;
+        }
+
+    .headerLine {
+        background-color: white;
+        top: 17%;
+        left: 0;
+        position: fixed;
+        box-shadow: 0px 10px 30px 1px black;     
+    } 
+
+
+    .body {
+        background-color: #AFAFAF;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+    }
+
+    .kartenbody {
+        margin-top: 25%;
+        margin-bottom: 100px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .karte {
+        width: 95%;
+        height: 300px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        margin-top: 5%;
+        border-radius: 10px;
+        align-items: center;
+        box-shadow: 0px 10px 30px 1px #212121;
+        border: 5px black;
+        z-index: 2;
+    }
+
+    .kartenlinie {
+        width: 100%;
+        background-color: #00a9b5;
+        height: 1px;
+        z-index: 1;
+    }
+
+    .kartenhintergrund {
+        border-radius: 10px;
+        opacity: 0.1;
+        width: 95%;
+        height: 300px;
+        position: absolute;
+    }
+
+    .kartentitel {
+        font-size: 25px;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        font-family: Open_Sans, sans-serif;
+        color: #00a9b5;
+    }
+
+    .kartendaten {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 80%;
+        margin-top: 1%;
+    }
+
+    .kartenreiheTitel {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin-left: 10%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .kartenreihe1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-left: 10%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    
+    .kartenreihe2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 80%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 5%;
+    }
+
+    .kartenreihe2Box {
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .kartenDatenUndProfilPic {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .profilPic {
+        height: 80px;
+        width: 100px;
+        z-index: 1;
+        position: absolute;
+        margin-top: 60px;
+        margin-left: 30%;
+        border-radius: 50%;
+        border: 1px solid #00a9b5;
+    }
+
+    .kartenSubTitel {
+        font-size: 20px;
+        color: black;
+        font-family: Open_Sans, sans-serif;
+        margin: 0;
+        width: 30%;
+        margin-top: 3%;
+        margin-right: 50%;
+    }
+    
+    .icon {
+        display: block;
+        fill: green; 
+        width: 20px;
+        height: 100px;
+    }
+
+    .LogoIcon {
+        margin-left: 5%;
+        margin-top: 55px;
+        height: 45px;
+        position: fixed;
+      
+    }
+
+
+
+    .kartenSubTitelInput {
+        font-size: 25px;
+        color: #00a9b5;
+        font-family: Open_Sans, sans-serif;
+        margin: 0;
+        width: 100%;
+    }
+
+    .openCard {
+        font-size: 15px;
+        color: gray;
+        font-family: Open_Sans, sans-serif;
+        margin: 0;
+        padding-bottom: 3%;
+        font-weight: bold;
+    }
+
+    .iconHouse {
+        position: inherit;       
+        bottom: 15px;
+    }
+
+    .notificationBoxes {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 200px;
+    }
+
+    .notificationBox1 {
+        height: 50%;
+        border-bottom: 1px solid #035428;
+        background-color: #c3f7fa;
+    }
+
+    .notification {
+        height: 100px;
+        width: 100%;
+        background-color: #00f3ff;
+        opacity: 0.08;
+        transform-origin: right;
+        -webkit-animation: notify 5s ease-in-out infinite;
+        animation: notify 5s ease-in-out infinite;
+        position: absolute;
+      }
+      
+      @-webkit-keyframes notify {
+        0% {transform: scaleX(0);}
+        10% {transform: scaleX(1);}
+        13% {transform: scale(1.1);}
+        16% {transform: scale(1);}
+        100% {transform: scaleX(0);}
+      }
+      
+      @keyframes notify {
+        0% {transform: scaleX(0);}
+        10% {transform: scaleX(1);}
+        13% {transform: scale(1.1);}
+        16% {transform: scale(1);}
+        100% {transform: scaleX(0);}
+      }
+      
+      .identifier {
+        position: absolute;
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        background-color: #94DACD;
+        margin-top: 5.5px;
+        margin-left: 7.5px;
+        -webkit-animation: exit 3s ease-in-out infinite;
+        animation: exit 3s ease-in-out infinite;
+      }
+      
+      .text {
+        position: absolute;
+        height: 6px;
+        width: 70px;
+        background-color: #94DACD;
+        margin-top: 12.25px;
+        margin-left: 40px;
+        -webkit-animation: exit 3s ease-in-out infinite;
+        animation: exit 3s ease-in-out infinite;
+      }
+      
+      @-webkit-keyframes exit {
+        0% {opacity: 1;}
+        55% {opacity: 1;}
+        65% {opacity: 0;}  
+        100% {opacity: 0;}
+      }
+      
+      @keyframes exit {
+        0% {opacity: 1;}
+        55% {opacity: 1;}
+        65% {opacity: 0;}  
+        100% {opacity: 0;}
+      }
+      
+      .number {
+        position: absolute;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        color: #94DACD;
+        margin-top: -40px;
+        margin-left: 557px;
+        -webkit-animation: enter 3s ease-in-out infinite;
+        animation: enter 3s ease-in-out infinite;
+      }
+      
+      @-webkit-keyframes enter {
+        0% {opacity: 0;}
+        55% {opacity: 0;}
+        65% {opacity: 1; transform: scaleX(1);}
+        95% {opacity: 1; transform: scaleX(1);}
+        100% {opacity: 0; transform: scaleX(1);}
+      }
+      
+      @keyframes enter {
+        0% {opacity: 0;}
+        55% {opacity: 0;}
+        65% {opacity: 1; transform: scaleX(1);}
+        95% {opacity: 1; transform: scaleX(1);}
+        100% {opacity: 0; transform: scaleX(1);}
+      }
+      
+      #credit {
+        position: absolute;
+        font-family: sans-serif;
+        font-size: 12px;
+        color: #ffffff;
+        margin-top: 70px;
+        left: 20px;
+      }
+      
+      a,
+      a:visited {
+        text-decoration: none;
+        color: #ffffff;
+      }
+      
+      a:focus,
+      a:hover {
+        color: #45B39F;
+      }
+
+      .notificationBox {
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+      }
+
+      .notiTextBox {
+          display: flex;
+          flex-direction: row;
+          position: relative;
+        }
+
+      .notiAufgabe {
+        font-size: 30px;
+        color: black;
+        margin-top: 33px;
+        margin-left: 20px;
+        font-family: Open_Sans, sans-serif;
+      }
+
+      .notiDatum {
+        font-size: 25px;
+        color: #383838;
+        margin-top: 37px;
+        margin-left: 25px;
+        font-family: Open_Sans, sans-serif;
+    }
+
+    .notiPicProp {
+        height: 70px;
+        margin-left: 30px;
+        margin-top: 15px;
+    }
+
+    .notiPicText {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .titelNoti {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    .dot {
+        height: 25px;
+        width: 25px;
+        background-color: #22C96F;
+        color: white;
+        border-radius: 50%;
+        display: inline-block;
+        margin-left: 180px;
+        position: absolute;
+        margin-top: 4px;
+        font-family: Open_Sans, sans-serif;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+    }
+
+    .dotNumber {
+        margin-left: 7px;
+    }
+
+    .navbar {
+        overflow: hidden;
+        background-color:rgba(255, 255, 255, 0.85);
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        z-index: 2;
+        display: flex;
+        justify-content: space-around;
+        height: 80px;
+        border-top: 2px solid #bdbdbd;
+        padding-bottom: 10px;
+      }
+      
+      .navbar a {
+        float: left;
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+      
+      .navbar a:hover {
+        background: #f1f1f1;
+      }
+      
+      .main {
+        padding: 16px;
+        margin-bottom: 30px;
+      }
+
+
+

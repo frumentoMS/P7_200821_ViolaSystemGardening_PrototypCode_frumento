@@ -1,0 +1,128 @@
+
+<html>
+  <head>
+    <style>
+      </style>
+  </head>
+  <body class="body">
+    <p class="addGarden">+</p>
+    
+  <div *ngIf="sideNavService.showAddMember" class="popUpTask2">
+    <p class="popUpTaskTitle2">ADD MEMBER</p>
+    <div class="popUpTaskLine"></div>
+    <div class="box">
+
+        <div class="input-container2">
+          <input ([ngModel])="newMember" type="text" required="" style="margin-top:25px;" />
+          <label>Das neue Mitglied heißt?</label>
+        </div>
+        <button (click)="addMember()" type="button" class="btn">hinzufügen</button>
+
+    </div>
+  </div>
+
+
+  <div *ngIf="sideNavService.showAddTask" class="popUpTask">
+    <p class="popUpTaskTitle">ADD TASK</p>
+    <div class="popUpTaskLine"></div>
+    <div class="box">
+
+        <div class="input-container">
+          <input [(ngModel)]="newTask" type="text" required="" style="margin-top:25px;" />
+          <label>Was ist zu tun?</label>
+        </div>
+        <button (click)="addTask()" type="button" class="btn">posten</button>
+
+    </div>
+  </div>
+
+    <div class="kartenbody">
+
+      <div class="karte">
+        <img class="kartenhintergrund" src="./Picz/bio-172200_1920.jpg" alt="meinGarten">
+        <p class="kartentitel">Salatgarten</p>
+        <div class="kartenlinie"></div>
+        <p class="kartenSubTitel">Ansprechpartner:</p>
+        <img class="profilPic" src="./Picz/pau.jpg" alt="meinGarten">
+        <div class="kartendaten">
+      
+        <div class="kartenreihe1">
+          <p class="kartenSubTitel">Name:</p>
+          <p class="kartenSubTitel">Beete:</p>
+          <p class="kartenSubTitel">Pflanzen:</p>
+        </div> 
+        <div class="kartenreihe2">
+          <p class="kartenSubTitelInput">Paul Tremmel</p>
+          <p class="kartenSubTitelInput">2</p>
+          <p class="kartenSubTitelInput"><span (click)="goToUsePanel()">Eisberg</span>, Rucola, Rom...</p>
+        </div> 
+            </div>
+            <div class="addTaskBox">
+              <p (click)="sideNavService.showAddTask = true" class="addTask">+</p>
+              <p class="addTaskTitle">Add Task</p>
+            </div>
+            <a routerLink="/full-garten-info" routerLinkActive="active"><img class="icon" src="./Icons/keyboard_arrow_down_grey-24px.svg">
+            </a>
+      </div>
+
+  <div class="karte">
+    <img class="kartenhintergrund" src="./Picz/bio-172200_1920.jpg" alt="meinGarten">
+    <p class="kartentitel">Obstgarten</p>
+    <div class="kartenlinie"></div>
+    <p class="kartenSubTitel">Ansprechpartner:</p>
+    <img class="profilPic" src="./Picz/Nils.jpg" alt="meinGarten">
+    <div class="kartendaten">
+  
+    <div class="kartenreihe1">
+      <p class="kartenSubTitel">Name:</p>
+      <p class="kartenSubTitel">Beete:</p>
+      <p class="kartenSubTitel">Pflanzen:</p>
+    </div> 
+    <div class="kartenreihe2">
+      <p class="kartenSubTitelInput">Nils Becker</p>
+      <p class="kartenSubTitelInput">4</p>
+      <p class="kartenSubTitelInput">Erdbeeren, Himbeeren, B..</p>
+    </div> 
+        </div>
+        <div class="addTaskBox">
+          <p  (click)="sideNavService.showAddTask = true" class="addTask">+</p>
+          <p class="addTaskTitle">Add Task</p>
+        </div>
+          <a routerLink="/full-garten-info" routerLinkActive="active"><img class="icon" src="./Icons/keyboard_arrow_down_grey-24px.svg">
+          </a>
+  
+  </div>
+  <div class="karte">
+    <img class="kartenhintergrund" src="./Picz/bio-172200_1920.jpg" alt="meinGarten">
+    <p class="kartentitel">Kartoffelgarten</p>
+    <div class="kartenlinie"></div>
+    <p class="kartenSubTitel">Ansprechpartner:</p>
+    <img class="profilPic" src="./Picz/freckled-face-3763188.jpg" alt="meinGarten">
+    <div class="kartendaten">
+
+    <div class="kartenreihe1">
+      <p class="kartenSubTitel">Name:</p>
+      <p class="kartenSubTitel">Beete:</p>
+      <p class="kartenSubTitel">Pflanzen:</p>
+    </div> 
+    <div class="kartenreihe2">
+      <p class="kartenSubTitelInput">Juli Schneider</p>
+      <p class="kartenSubTitelInput">4</p>
+      <p class="kartenSubTitelInput">Basilikum, Koriander, Peters...</p>
+    </div> 
+        </div>
+        <div class="addTaskBox">
+        <p (click)="sideNavService.showAddTask = true" class="addTask">+</p>
+        <p class="addTaskTitle">Add Task</p>
+      </div>
+        <a routerLink="/full-garten-info" routerLinkActive="active"><img class="icon" src="./Icons/keyboard_arrow_down_grey-24px.svg">
+        </a>
+
+</div>
+
+
+
+
+   </div> 
+  </body>
+  </html>
